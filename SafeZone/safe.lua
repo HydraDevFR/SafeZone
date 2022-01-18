@@ -15,17 +15,11 @@ local zones = {
 }
 
 ESX = nil
-
 local notifIn = false
-
 local notifOut = false
-
 local veh = false
-
 local closestZone = 1
-
 local distance = 0
-
 local safe = false
 local PlayerData = {}
 
@@ -196,4 +190,3 @@ end)
 AddEventHandler('safe:Check', function(cb)
 cb(safe)
 end)
-
